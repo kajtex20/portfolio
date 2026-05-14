@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LisiaLandia — grafika Minecraft, montaż, TikTok, portfolio." />
+  <title>bartoszewski.art — grafika &amp; montaż</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/json" id="graphics-portfolio">[]</script>
+  <script type="application/json" id="portfolio-tiktok-urls">["","",""]</script>
+</head>
+<body class="intro-lock">
+  <div class="intro-overlay" id="intro-overlay" aria-hidden="true">
+    <div class="intro-words" id="intro-words">
+      <span class="intro-word is-visible">KREATYWNY</span>
+      <span class="intro-word">NOWOCZESNY</span>
+      <span class="intro-word">SKUTECZNY</span>
+    </div>
+  </div>
+
+  <div class="page-bg">
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+    <div class="blob blob-3" aria-hidden="true"></div>
+    <div class="blob blob-4" aria-hidden="true"></div>
+    <div class="grain-layer" aria-hidden="true"></div>
+  </div>
+
+  <div class="header-wrap">
+    <header class="site-header">
+      <a class="logo" href="#top">Lisia<span class="logo-dot">Landia</span></a>
+      <nav class="nav" aria-label="Główna nawigacja">
+        <a href="#grafika">grafika</a>
+        <a href="#filmy">tiktoki</a>
+        <a href="#opinie">opinie</a>
+      </nav>
+      <a
+        class="nav-discord"
+        href="https://discord.gg/296aqZYXHq"
+        target="_blank"
+        rel="noopener noreferrer"
+        id="link-discord"
+      >
+        <svg class="nav-discord-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        <span>Discord</span>
+      </a>
+    </header>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-top-row">
+          <p class="hero-badge">
+            <span class="hero-badge-dot" aria-hidden="true"></span>
+            <span class="hero-badge-text">Dostępny do zleceń</span>
+          </p>
+
+          <div class="hero-tools" id="hero-tools" aria-label="Narzędzia pracy">
+            <div class="hero-tools-card">
+              <img class="hero-tools-bg" src="img/obrazek1.png" alt="" loading="lazy" />
+              <div class="hero-tools-logos" role="list">
+                <button class="tool-logo" type="button" data-tool-index="0" aria-label="Photoshop">
+                  <img src="img/logo1.png" alt="Photoshop" width="74" height="74" loading="lazy" />
+                </button>
+                <button class="tool-logo" type="button" data-tool-index="1" aria-label="Premiere Pro">
+                  <img src="img/logo2.png" alt="Premiere Pro" width="74" height="74" loading="lazy" />
+                </button>
+                <button class="tool-logo" type="button" data-tool-index="2" aria-label="After Effects">
+                  <img src="img/logo3.png" alt="After Effects" width="74" height="74" loading="lazy" />
+                </button>
+                <button class="tool-logo" type="button" data-tool-index="3" aria-label="Illustrator">
+                  <img src="img/logo4.png" alt="Illustrator" width="74" height="74" loading="lazy" />
+                </button>
+                <button class="tool-logo" type="button" data-tool-index="4" aria-label="Blender">
+                  <img src="img/logo5.png" alt="Blender" width="74" height="74" loading="lazy" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="hero-line hero-line-1">Grafika i montaż,</span>
+          <span class="hero-line hero-line-2">Wysoka <span class="hero-gradient"> jakość.</span></span>
+        </h1>
+        <p class="hero-lead">Key visuals i montaż pod social — szybko i czytelnie.</p>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-glow"></div>
+          <div class="editor-window">
+            <div class="editor-chrome">
+              <span class="editor-dot editor-dot-red"></span>
+              <span class="editor-dot editor-dot-yellow"></span>
+              <span class="editor-dot editor-dot-green"></span>
+              <span class="editor-title">Premiere / After Effects</span>
+            </div>
+            <div class="editor-preview">
+              <div class="editor-preview-inner"></div>
+            </div>
+            <div class="editor-timeline">
+              <div class="editor-ruler"></div>
+              <div class="editor-tracks">
+                <div class="editor-track"><span class="clip clip-a"></span><span class="clip clip-b"></span></div>
+                <div class="editor-track"><span class="clip clip-c"></span><span class="clip clip-d"></span></div>
+                <div class="editor-track editor-track-audio"><span class="clip clip-e"></span></div>
+              </div>
+              <div class="editor-playhead"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="hero-link" href="#grafika">Zobacz grafikę <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+          <a class="hero-discord" href="https://discord.gg/296aqZYXHq" id="hero-discord-link" target="_blank" rel="noopener noreferrer">
+            <svg class="hero-discord-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            Napisz na Discordzie
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="grafika" class="portfolio-section">
+      <div class="section-head">
+        <h2 class="section-title">Grafika <span class="accent">Minecraft</span></h2>
+        <p class="section-desc">Kafelki 16:9 — kliknij, żeby powiększyć.</p>
+      </div>
+      <div class="graphics-panel">
+        <div class="graphics-grid graphics-grid-ref" id="graphics-grid" role="list"></div>
+      </div>
+    </section>
+
+    <section id="filmy" class="films-section portfolio-section">
+      <div class="section-head">
+        <h2 class="section-title">TikTok<span class="accent">i</span></h2>
+        <p class="section-desc">Wbudowany odtwarzacz (bez opisu i muzyki pod spodem).</p>
+      </div>
+      <div class="films-panel">
+        <div class="films-scroller-wrap films-scroller-tiktok">
+          <div class="films-scroller" id="films-scroller" role="list"></div>
+        </div>
+        <p class="films-empty" id="films-empty" hidden></p>
+      </div>
+    </section>
+
+    <section id="opinie" class="reviews-section">
+      <div class="section-head section-head-center">
+        <h2 class="section-title">Opinie</h2>
+        <p class="section-desc">Od twórców — zatrzymaj kursor, żeby czytać.</p>
+      </div>
+
+      <div class="marquee marquee-left" aria-label="Opinie, wiersz 1">
+        <div class="marquee-track">
+          <div class="marquee-set">
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient1.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">EndriuMINECRAFT</p>
+                  <p class="review-subs">290 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Szybko, czytelnie, zero chaosu na kanale. Polecam współpracę.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient2.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">NoFi</p>
+                  <p class="review-subs">19,8 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Miniaturki trafiają w klimat serwera — ludzie wchodzą w materiały.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient3.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">ZenciaK</p>
+                  <p class="review-subs">253 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Montaż trzyma rytm, nie ma zbędnego lania wody.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient4.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">kxcpvr</p>
+                  <p class="review-subs">12,3 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Brief ogarnięty, efekt jak z dużej agencji — a vibe lokalny.”</p>
+            </article>
+          </div>
+          <div class="marquee-set" aria-hidden="true">
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient1.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">EndriuMINECRAFT</p>
+                  <p class="review-subs">290 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Szybko, czytelnie, zero chaosu na kanale. Polecam współpracę.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient2.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">NoFi</p>
+                  <p class="review-subs">19,8 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Miniaturki trafiają w klimat serwera — ludzie wchodzą w materiały.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient3.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">ZenciaK</p>
+                  <p class="review-subs">253 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Montaż trzyma rytm, nie ma zbędnego lania wody.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient4.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">kxcpvr</p>
+                  <p class="review-subs">12,3 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Brief ogarnięty, efekt jak z dużej agencji — a vibe lokalny.”</p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee marquee-right" aria-label="Opinie, wiersz 2">
+        <div class="marquee-track">
+          <div class="marquee-set">
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient5.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">Lethal</p>
+                  <p class="review-subs">37,9 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Komunikacja na Discordzie — konkret, terminy trzymane.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient6.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">778k</p>
+                  <p class="review-subs">777 subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Grafika wygląda drogo, a nie jest przekombinowana.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient7.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">Kaliks</p>
+                  <p class="review-subs">19,4 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Shortsy pod skróty — hook od pierwszej sekundy.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient8.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">xzy</p>
+                  <p class="review-subs">46,6 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Kolory spójne z serwerem — od miniatury po baner.”</p>
+            </article>
+          </div>
+          <div class="marquee-set" aria-hidden="true">
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient5.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">Lethal</p>
+                  <p class="review-subs">37,9 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Komunikacja na Discordzie — konkret, terminy trzymane.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient6.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">778k</p>
+                  <p class="review-subs">777 subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Grafika wygląda drogo, a nie jest przekombinowana.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient7.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">Kaliks</p>
+                  <p class="review-subs">19,4 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Shortsy pod skróty — hook od pierwszej sekundy.”</p>
+            </article>
+            <article class="review-card">
+              <div class="review-top">
+                <img class="review-avatar" src="img/klient8.jpg" alt="" width="48" height="48" loading="lazy" />
+                <div class="review-meta">
+                  <p class="review-name">xzy</p>
+                  <p class="review-subs">46,6 tys. subskrybentów</p>
+                </div>
+              </div>
+              <p class="review-text">„Kolory spójne z serwerem — od miniatury po baner.”</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> LisiaLandia</span>
+    <span class="footer-tag">grafika &amp; montaż</span>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lightbox-close" aria-label="Zamknij podgląd">&times;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-img" width="1920" height="1080" />
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
